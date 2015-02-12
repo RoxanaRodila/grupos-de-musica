@@ -1,6 +1,24 @@
-h1 (color: blue;)
-html, body, h1, h2, h3, p, ol, ul, li, a {
-    padding: 0;
-    border: 0;
-    margin: 0;
+body {background-color: #8C2F42;}
+
+header {background-color: #AC3A79; height: 120px;}
+header ul {margin-top: 0;list-style-type: none;}
+header li {display: inline; padding: 40px;}
+nav a {text-decoration: none;}
+
+nav a {color:yellow;}
+.centrado{
+ width:980px;
+    background-color: #BA0E58;
+    margin:0 auto;
+}
+
+.titulo{
+width: 980px;
+    background-color: #A74954;
+    margin: 0 auto;
+}
+
+h1 {
+text-align: center;
+    color: #691962;
 }
