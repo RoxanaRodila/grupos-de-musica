@@ -8,8 +8,8 @@ nav a {text-decoration: none;}
 nav a {color:yellow;}
 .centrado{
  width:980px;
-    background-color: #BA0E58;
-    margin:0 auto;
+background-color: #BA0E58;
+margin:0 auto;
 }
 
 .titulo{
@@ -22,3 +22,39 @@ h1 {
 text-align: center;
     color: #691962;
 }
+
+h2 
+{ color:#AC3A79;
+    border-bottom:2px solid #AC3A79;
+}
+
+h3, h4 {color:#AC8A99;}
+
+img. logo 
+{
+width: 447px;
+display: block;
+margin: 0 auto;
+}
+
+
+li img 
+
+{
+width: 50px; 
+height: auto;
+vertical-align: middle;
+margin: 5px;
+border:6px; solid #2C2F55; 
+padding: 5px;
+background-color: #2C2F55;
+      
+}
+
+ul.cantantes
+{
+list-style-type:none;
+}
+
+.lugar
+{color: blue; text-transform: uppercase;}
