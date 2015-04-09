@@ -1,60 +1,135 @@
-body {background-color: #8C2F42;}
-
-header {background-color: #AC3A79; height: 120px;}
-header ul {margin-top: 0;list-style-type: none;}
-header li {display: inline; padding: 40px;}
-nav a {text-decoration: none;}
-
-nav a {color:yellow;}
-.centrado{
- width:980px;
-background-color: #BA0E58;
-margin:0 auto;
+body {
+    background-color: #C46564;
+    font-family: 'Grand Hotel', cursive, blue;
+    
 }
 
-.titulo{
-width: 980px;
-    background-color: #A74954;
+header {
+    background-color: #F0E999;
+    height: 120px;
+}
+
+header ul {
+    margin-top: 0;
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+    padding: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a {
+    color:#B8C99D;
+}
+
+.centrado {
+    width: 980px;
+    background-color: #B8C99D;
+    margin: 0 auto;
+}
+
+.titulo {
+    width: 980px;
+    background-color: #9B726F;
     margin: 0 auto;
 }
 
 h1 {
-text-align: center;
-    color: #691962;
+    text-align: center;
+    color: #9B726F;
+    font-family: 'Lakki Reddy', cursive;
 }
 
-h2 
-{ color:#AC3A79;
-    border-bottom:2px solid #AC3A79;
+h2 {
+    color: #AC3A79;
+    border-bottom: 2px solid #EEB15B;
+    font-family: 'Lakki Reddy', cursive;
 }
 
-h3, h4 {color:#AC8A99;}
-
-img. logo 
-{
-width: 447px;
-display: block;
-margin: 0 auto;
+h3,
+h4 {
+    color: #EEB15B;
 }
 
-
-li img 
-
-{
-width: 50px; 
-height: auto;
-vertical-align: middle;
-margin: 5px;
-border:6px; solid #2C2F55; 
-padding: 5px;
-background-color: #2C2F55;
-      
+img. logo {
+    width: 447px;
+    display: block;
+    margin: 0 auto;
 }
 
-ul.cantantes
-{
-list-style-type:none;
+li img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px;
+    border: 6px;
+    solid #2C2F55;
+    padding: 5px;
+    background-color: #EEB15B;
 }
 
-.lugar
-{color: blue; text-transform: uppercase;}
+ul.cantantes {
+    list-style-type: none;
+}
+
+.lugar {
+    color: blue;
+    text-transform: uppercase;
+}
+/*formulario*/
+
+input,
+select {
+    display: block;
+    width: 150px;
+}
+
+input [type=submit],
+input [type=reset] {
+    display: inline;
+    width: 95px;
+}
+
+#contacto {
+    width: 250px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+    #pagewrap {
+        width: 95%;
+    }
+    #content {
+        width: 60% padding: 3% 4%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #content {
+        float: none;
+        width: auto;
+    }
+    #sidebar {
+        float: none;
+        width: 100%;
+    }
+    #searchform {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #s {
+        width: 70px !important;
+    }
+    #s:focus{
+    width: 140px !important;
+    }
+}

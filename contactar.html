@@ -3,6 +3,7 @@
 <head>
  
     <meta charset="UTF-8">
+    <meta	name="viewport"	content="width=device-width,	initial-scale=1">
     <title>Contactar | Grupos de música rock y pop</title>
      <link rel="stylesheet" href="Styles/normalize.css">
      <link rel="stylesheet" href="Styles/Estilos.css">
@@ -24,8 +25,41 @@
      </div>
     </header>
      <div class="centrado">
+     <section>
+     
     <h2>Contactar</h2>
-    <!-- Aquí irá el formulario de contacto -->
+   
+    <p>
+        Si desea que tu grupo aparezca en nuestra pagina, cumplimenta el formulario que aparece a continuacion. Muchas gracias.</p>
+        
+         <div id= "contacto">
+        <form action="">
+            <label for="nombre" >Introduce tu nombre </label>
+            <input type="text" name="nombre" id="nombre">
+             <label for="edad" >Introduce tu edad </label>
+            <input type="text" name="nombre" id="edad">
+             <label for="grupo" >Introduce el nombre de tu grupo</label>
+            <input type="text" name="grupo" id="grupo">
+             <label for="tipomusica" >Tipo de musica </label>
+            <select type="text" name="tipomusica" id="tipomusica">
+                <option value="POP">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Country">Country</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Blues">Blues</option>
+            </select>
+            <label for="newsletter">Quiero recibir vuestras novedades</label>
+               <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="sexo" >Hombre </label>
+            <input type="radio" name="nombre" id="hombre">  
+                 <label for="sexo" >Mujer </label>
+            <input type="radio" name="nombre" id="mujer">
+               <input type="reset" value="Cancelar">
+               <input type="submit" value="Enviar">   
+                
+        </form>
+         </div>
+         </section>
     </div>
 </body>
 </html>
